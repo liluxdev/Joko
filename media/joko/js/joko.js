@@ -1,0 +1,2 @@
+
+var $joko = jQuery.noConflict();

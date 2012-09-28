@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="2.5.0">
+	<name>Joko</name>
+	<libraryname>joko</libraryname>
+	<author>Jiliko.net</author>
+	<creationDate>September 28th, 2012</creationDate>
+	<copyright>Copyright Jiliko.net 2009-2012</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>o.nolbert@jiliko.net</authorEmail>
+	<authorUrl>www.jiliko.net</authorUrl>
+	<version>2.5.4</version>
+	<description>JOKO_XML_DESCRIPTION</description>
+	<files folder="lib">
+		<folder>element</folder>
+		<folder>environment</folder>
+		<folder>external</folder>
+		<folder>html</folder>
+		<folder>joomla</folder>
+		<folder>k2</folder>
+		<folder>language</folder>
+		<folder>tools</folder>
+	</files>
+	<media folder="media" destination="joko">
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</media>
+</extension>
