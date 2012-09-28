@@ -56,7 +56,7 @@ class JokoEnvironmentUrl
 			$router = new JRouterSite(array('mode'=>JROUTER_MODE_SEF));  
 			$route = $router->build($link)->toString(array('path', 'query', 'fragment'));  
 			// SEF URL !  
-			$route = str_replace('/administrator', '', $route);
+			$route = str_replace('/administrator/', '', $route);
 			return $route;
 		}
 		
