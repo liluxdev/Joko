@@ -25,4 +25,7 @@
 		<folder>images</folder>
 		<folder>js</folder>
 	</media>
+	<updateservers>
+		<server type="extension" priority="1" name="Joko Library Updates"><![CDATA[http://www.jiliko.net/updates/joko.xml]]></server>
+	</updateservers>
 </extension>
