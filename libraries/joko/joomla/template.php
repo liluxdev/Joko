@@ -1,12 +1,14 @@
 <?php
-defined( '_JEXEC' ) or die;
-
 /**
- * An 
- *
- * @package default
- * @author Jiliko.net
- */
+* @version 			Joko Library 2.5.x
+* @package			Joko
+* @url				http://www.jiliko.net
+* @editor			Jiliko - www.jiliko.net
+* @copyright		Copyright (C) 2012 JILIKO. All Rights Reserved.
+* @license 			GNU General Public License version 2 or later; see _LICENSE.php
+**/
+
+defined( '_JEXEC' ) or die;
 
 class JokoJoomlaTemplate {
 	

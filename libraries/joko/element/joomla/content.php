@@ -17,6 +17,8 @@ class JokoElementJoomlaContent extends JokoElement {
 	protected static $table_name = 'content';
 
 	public static function getRoute($content_id) {
+		//TODO : remove category segment if menu item is a blog category.
+		// It works like this but the category segment is duplicated (one for the menu item & one for the category)
 		return JokoEnvironmentUrl::getRoute(static::_getLink($content_id));
 	}
 	
